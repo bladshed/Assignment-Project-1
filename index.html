@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""
+  />
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" id="home-page" aria-current="page" href="">Home</a>
+            <a class="nav-link map-page" id="map-page" href="">Maps</a>
+            <a class="nav-link" id="about-me-page" href="">About Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home page start -->
+    <section id="main-section" class="d-flex justify-content-center align-items-center">
+      <div id="cover" class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <p>Hello there, feeling stressed?</p>
+          <h1>Have a time out, go out and get some fresh air :)</h1>
+          <button class="btn-lg btn-success mt-3 map-page" id="find-btn">Let's find a place to relax</button>
+        </div>
+      </div>
+    </section>
+    <!-- home page end -->
+
+    <!-- map page start -->
+    <main id="map-main" class="row d-none">
+      
+    </main>
+    <!-- map page end -->
+
+    <!-- other places modal start -->
+    <div class="modal fade" id="otherPlacesModal" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="other-places-title">Modal title</h5>
+            <button type="button" class="btn-close exit-modal" aria-label="Close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center mb-3">
+              <img id="img-place" class="mx-0" src="" alt="Image Mall">
+            </div>
+            <p id="place-desc"></p>
+          </div>
+          <div class="modal-footer d-none d-md-inline d-lg-inline d-xl-inline">
+            <button type="button" class="btn btn-secondary exit-modal" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- other places modal end -->
+
+    <!-- other places modal mobile start -->
+    <div class="modal" id="otherPlacesMblModal" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Suggested Places</h5>
+            <button type="button" class="btn-close exit-modal" aria-label="Close" data-bs-dismiss="modal"></button>
+          </div>
+          <ul class="d-flex flex-column align-items-start">
+            <li><a href="#" data-bs-dismiss="modal" class="mx-3" id="tanjong-beach-mbl">Tanjong Beach</a></li>
+            <li><a href="#" data-bs-dismiss="modal" class="mx-3" id="pulau-ubin-mbl">Pulau Ubin</a></li>
+            <li><a href="#" data-bs-dismiss="modal" class="mx-3" id="pulau-hantu-mbl">Pulau Hantu</a></li>
+            <li><a href="#" data-bs-dismiss="modal" class="mx-3" id="national-gallery-mbl">National Gallery</a></li>
+            <li><a href="#" data-bs-dismiss="modal" class="mx-3" id="national-museum-mbl">National Museum</a></li>
+            <li><a href="#" data-bs-dismiss="modal" class="mx-3" id="artscience-museum-mbl">ArtScience Museum</a></li>
+            <li><a href="#" data-bs-dismiss="modal" class="mx-3" id="vintage-museum-mbl">Vintage Museum</a></li>
+          </ul> 
+          <div class="modal-footer d-none d-md-inline d-lg-inline d-xl-inline">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- other places modal mobile end -->
+
+    <!-- search maps modal mobile start -->
+    <div class="modal" id="searchMblModal" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content" id="modal-content-mbl">
+          <div class="modal-header">
+            <h5 class="modal-title">Search</h5>
+            <button type="button" class="btn-close exit-modal" aria-label="Close" id="btn-close-mbl" data-bs-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+            <div class="row w-100 justify-content-around">
+              <button class="btn-sm btn-success mb-3 col-5" id="malls-btn-mbl">MALLS</button>
+              <button class="btn-sm btn-success mb-3 col-5" id="parks-btn-mbl">PARKS</button>
+            </div>
+            <input id="search-input-mbl" class="col-10 mb-2" type="text"/>
+            <button class="btn-sm btn-primary mb-3 col-10" id="search-btn-mbl">SEARCH</button>
+            <div id="search-results-mbl"></div>
+          </div>
+          <div class="modal-footer d-none d-md-inline d-lg-inline d-xl-inline">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- search maps modal mobile start -->
+
+    <!-- about me page start -->
+    <section id="about-me-section" class="d-flex justify-content-center align-items-center d-none">
+      
+    </section>
+    <!-- about me page start -->
+    
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+    ></script>
+   
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/charts.js"></script>
+    <script src="scripts/page-control.js"></script>
+</body>
+</html>

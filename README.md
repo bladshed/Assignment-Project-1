@@ -8,6 +8,6 @@ I believe this application will be a big help to those people who are stressed, 
 
 ### UI/UX
 
-* [Wireframes link](files/Wireframes.pdf)
+* [Wireframes link](files)
 
 * The design main colors revolves in blue, green, red and black. I chose these colors because it represent the nature's colors, blue and green are very pleasing to the eyes, red to catch the attention, black to neutralize the colors and to make it dark so it won't stressed your eyes.

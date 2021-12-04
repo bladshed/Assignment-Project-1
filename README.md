@@ -226,4 +226,4 @@ I believe this application will be a big help to those people who are stressed, 
 
 ### CREDITS
 * For my mall images [sg.hotels.com] (https://sg.hotels.com/go/singapore/best-singapore-shopping-malls)
-* For my parks images [timeout.com] (https://www.timeout.com/singapore/things-to-do/the-prettiest-parks-in-singapore)
+* For my park images [timeout.com] (https://www.timeout.com/singapore/things-to-do/the-prettiest-parks-in-singapore)

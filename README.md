@@ -44,7 +44,7 @@ I believe this application will be a big help to those people who are stressed, 
 
 ### TEST CASES
 
-<table style="width:80%">
+<table style="width:100%">
    <tr>
       <th colspan=2>Home Page
    <tr>

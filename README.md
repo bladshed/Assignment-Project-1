@@ -43,7 +43,6 @@ I believe this application will be a big help to those people who are stressed, 
    * They have cool fonts and icons
 
 ### TEST CASES
-<!DOCTYPE html>
 <html lang="en">
    <head>
       <style>

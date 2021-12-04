@@ -24,8 +24,11 @@ I believe this application will be a big help to those people who are stressed, 
 
 ### TECHNOLOGIES USED
 
-* Bootstrap
-   * I used bootstrap in my entire UI web application because it's super easy to manipulate html elements and they also provide basic element designs where I was able to save a lot time in designing like my buttons, navbar, etc.
+* HTML
+   * To build my web page
+
+* CSS
+   * To customize my html elements
 
 * Javascript
    * I used javascript to control all the functionalities of my application, it is like the brain of my application
@@ -33,14 +36,8 @@ I believe this application will be a big help to those people who are stressed, 
    * Some of the advance method of the script were used like forEach, array.map, etc
    * You may find the scripts [here](scripts)
 
-* Leaflet
-   * I used leaflet for my maps (Maps tab), the reason why I chose Leaflet is because it is beginner friendly and the guides from their web page is not that complicated to understand. Also, this is the library that we used in all of our map lessons.
-
-* Apexcharts
-   * I used only one chart just to show that I am able to use a third party chart library. You may find the chart in About me tab.
-
-* Google fonts and font awesome were used for fonts and icons.
-   * They have cool fonts and icons
+* Visual Studio Code
+   * IDE that I used for this project because it's easy to code here and easy to manage your files and data
 
 ### TEST CASES
 <table>
@@ -214,3 +211,19 @@ I believe this application will be a big help to those people who are stressed, 
    1. Go to [Assignment-Project-1](https://github.com/bladshed/Assignment-Project-1)
    2. Download my project repository
      > `gh repo clone bladshed/Assignment-Project-1`
+* Dependencies used
+   * Bootstrap (for my CSS)
+      * I used bootstrap in my entire UI web application because it's super easy to manipulate html elements and they also provide basic element designs where I was able to save a lot time in designing like my buttons, navbar, etc.
+
+   * Leaflet
+      * I used leaflet for my maps (Maps tab), the reason why I chose Leaflet is because it is beginner friendly and the guides from their web page is not that complicated to understand. Also, this is the library that we used in all of our map lessons.
+
+   * Apexcharts
+      * I used only one chart just to show that I am able to use a third party chart library. You may find the chart in About me tab.
+
+   * Google fonts and font awesome were used for fonts and icons.
+      * They have cool fonts and icons
+
+### CREDITS
+* [sg.hotels.com] (https://sg.hotels.com/go/singapore/best-singapore-shopping-malls) for my mall images
+* [timeout.com] (https://www.timeout.com/singapore/things-to-do/the-prettiest-parks-in-singapore) for my mall images

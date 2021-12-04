@@ -221,9 +221,9 @@ I believe this application will be a big help to those people who are stressed, 
    * Apexcharts
       * I used only one chart just to show that I am able to use a third party chart library. You may find the chart in About me tab.
 
-   * Google fonts and font awesome were used for fonts and icons.
-      * They have cool fonts and icons
+   * Google fonts and Font awesome
+      * These two libraries were used for my fonts and icons. They have cool fonts and icons.
 
 ### CREDITS
-* [sg.hotels.com] (https://sg.hotels.com/go/singapore/best-singapore-shopping-malls) for my mall images
-* [timeout.com] (https://www.timeout.com/singapore/things-to-do/the-prettiest-parks-in-singapore) for my mall images
+* For my mall images [sg.hotels.com] (https://sg.hotels.com/go/singapore/best-singapore-shopping-malls)
+* For my parks images [timeout.com] (https://www.timeout.com/singapore/things-to-do/the-prettiest-parks-in-singapore)

@@ -120,6 +120,7 @@ function main() {
             const cloudy = new Set();
             const sunny = new Set();
             const night = new Set();
+            const windy = new Set();
             weatherResponse.data.items[0].forecasts.forEach(forecast => {
                 if(forecast.forecast.includes("Shower") || forecast.forecast.includes("Rain")){
                     rainy.add(forecast.area);
@@ -129,6 +130,8 @@ function main() {
                     sunny.add(forecast.area);
                 } else if(forecast.forecast.includes("Night")){
                     night.add(forecast.area);
+                } else if(forecast.forecast.includes("Windy")){
+                    windy.add(forecast.area);
                 }
             });
             const weatherCoordinates = weatherResponse.data.area_metadata;
@@ -155,6 +158,11 @@ function main() {
                 iconSize: [50, 50] // size of the icon
             });
 
+            let windyIcon = L.icon({
+                iconUrl: 'images/windy.png',
+                iconSize: [50, 50] // size of the icon
+            });
+
             for (let i = 0; i < weatherCoordinates.length; i++) {
                 let area = weatherCoordinates[i].name;
                 if(rainy.has(area)){
@@ -169,6 +177,9 @@ function main() {
                 } else if(night.has(area)){
                     let pos = weatherCoordinates[i].label_location;
                     L.marker([pos.latitude,pos.longitude], {icon: nightIcon}).bindPopup(weatherCoordinates[i].name).addTo(weatherGroup);
+                } else if(windy.has(area)){
+                    let pos = weatherCoordinates[i].label_location;
+                    L.marker([pos.latitude,pos.longitude], {icon: windyIcon}).bindPopup(weatherCoordinates[i].name).addTo(weatherGroup);
                 }
             }
 

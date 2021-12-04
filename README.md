@@ -6,7 +6,7 @@ The main goal of this project is about help people to de-stress themselves and h
 
 I believe this application will be a big help to those people who are stressed, depressed, not in a good mood or those who are in any negative energy.
 
-[Web Application link](https://bladshed.github.io/Assignment-Project-1/)
+Click to link to access my --> [Web Application](https://bladshed.github.io/Assignment-Project-1/)
 
 ### UI/UX
 

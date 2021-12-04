@@ -43,26 +43,33 @@ I believe this application will be a big help to those people who are stressed, 
    * They have cool fonts and icons
 
 ### TEST CASES
-<style>
-    table {
-        width: 100%;
-    }
-</style>
-<table>
-   <tr>
-      <th colspan=2>Home Page
-   <tr>
-   <tr>
-      <th>Action</td>
-      <th>Expected Result</td>
-   <tr>
-   <tr>
-      <td>Click "Let's find a place to relax" button</td>
-      <td>Redirects to "Maps" tab</td>
-   <tr>
-   <tr>
-      <td>Click "Maps" tab</td>
-      <td>Redirects to "Maps" tab</td>
-   <tr>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <style>
+         table {
+            width: 100%;
+         }
+      </style>
+   </head>
+   <body>
+      <table>
+         <tr>
+            <th colspan=2>Home Page
+         <tr>
+         <tr>
+            <th>Action</td>
+            <th>Expected Result</td>
+         <tr>
+         <tr>
+            <td>Click "Let's find a place to relax" button</td>
+            <td>Redirects to "Maps" tab</td>
+         <tr>
+         <tr>
+            <td>Click "Maps" tab</td>
+            <td>Redirects to "Maps" tab</td>
+         <tr>
 
-</table>
+      </table>
+   </body>
+</html>

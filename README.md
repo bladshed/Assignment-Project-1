@@ -225,5 +225,7 @@ I believe this application will be a big help to those people who are stressed, 
       * These two libraries were used for my fonts and icons. They have cool fonts and icons.
 
 ### CREDITS
-* For my mall images [sg.hotels.com] (https://sg.hotels.com/go/singapore/best-singapore-shopping-malls)
-* For my park images [timeout.com] (https://www.timeout.com/singapore/things-to-do/the-prettiest-parks-in-singapore)
+* For my mall images 
+   * [sg.hotels.com] (https://sg.hotels.com/go/singapore/best-singapore-shopping-malls)
+* For my park images 
+   * [timeout.com] (https://www.timeout.com/singapore/things-to-do/the-prettiest-parks-in-singapore)

@@ -213,4 +213,4 @@ I believe this application will be a big help to those people who are stressed, 
 * To deploy my project to your local machine
    1. Go to [Assignment-Project-1](https://github.com/bladshed/Assignment-Project-1)
    2. Download my project repository
-      `gh repo clone bladshed/Assignment-Project-1`
+     > `gh repo clone bladshed/Assignment-Project-1`

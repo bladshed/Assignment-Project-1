@@ -12,6 +12,8 @@ I believe this application will be a big help to those people who are stressed, 
 
 * The design main colors revolves in blue, green, red and black. I chose these colors because it represent the nature's colors, blue and green are very pleasing to the eyes, red to catch the attention, black to neutralize the colors and to make it dark so it won't stressed your eyes.
 
+* [Project link](https://bladshed.github.io/Assignment-Project-1/)
+
 ### FEATURES
 
 * The main feature of this web application is the map navigation where when you choose your location from search or from the suggested places, it will fly you to that place so you will be able to see the exact location on the map.
@@ -24,14 +26,18 @@ I believe this application will be a big help to those people who are stressed, 
 
 * Bootstrap
    * I used bootstrap in my entire UI web application because it's super easy to manipulate html elements and they also provide basic element designs where I was able to save a lot time in designing like my buttons, navbar, etc.
+
 * Javascript
    * I used javascript to control all the functionalities of my application, it is like the brain of my application
    * This is the main language I used to implement all the third part libraries I used
    * Some of the advance method of the script were used like forEach, array.map, etc
    * You may find the scripts [here](scripts)
+
 * Leaflet
    * I used leaflet for my maps (Maps tab), the reason why I chose Leaflet is because it is beginner friendly and the guides from their web page is not that complicated to understand. Also, this is the library that we used in all of our map lessons.
+
 * Apexcharts
    * I used only one chart just to show that I am able to use a third party chart library. You may find the chart in About me tab.
-* Google fonts and font awesome were used for fonts and icons
+
+* Google fonts and font awesome were used for fonts and icons.
    * They have cool fonts and icons

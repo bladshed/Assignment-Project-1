@@ -62,7 +62,39 @@ I believe this application will be a big help to those people who are stressed, 
       <td>Redirects to "Maps" tab</td>
    <tr>
    <tr>
-      <td>Click "Maps" tab</td>
-      <td>Redirects to "Maps" tab</td>
+      <td>Click "Home" link</td>
+      <td>Goes to "Home" page</td>
+   <tr>
+   <tr>
+      <td>Click "Maps" link</td>
+      <td>Goes to "Maps" page</td>
+   <tr>
+   <tr>
+      <td>Click "About Me" link</td>
+      <td>Goes to "About Me" page</td>
+   <tr>
+   <tr>
+      <th colspan=2>Maps Page
+   <tr>
+   <tr>
+      <th>
+         <img width="441" height="1">
+         <small>Action</small>
+      </td>
+      <th>
+         <img width="441" height="1">
+         <small>Expected Result</small>
+      </td>
+   <tr>
+   <tr>
+      <td>Click Zoom in/out buttons</td>
+      <td>Map zooms in/out</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/your-position.png">
+         <small>Click this icon</small>
+      </td>
+      <td>Navigates to your current position</td>
    <tr>
 </table>

@@ -48,8 +48,14 @@ I believe this application will be a big help to those people who are stressed, 
       <th colspan=2>Home Page
    <tr>
    <tr>
-      <th>Action</td>
-      <th>Expected Result</td>
+      <th>
+         <img width="441" height="1">
+         <small>Action</small>
+      </td>
+      <th>
+         <img width="441" height="1">
+         <small>Expected Result</small>
+      </td>
    <tr>
    <tr>
       <td>Click "Let's find a place to relax" button</td>
@@ -59,5 +65,4 @@ I believe this application will be a big help to those people who are stressed, 
       <td>Click "Maps" tab</td>
       <td>Redirects to "Maps" tab</td>
    <tr>
-
 </table>

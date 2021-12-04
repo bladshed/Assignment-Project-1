@@ -43,15 +43,18 @@ I believe this application will be a big help to those people who are stressed, 
    * They have cool fonts and icons
 
 ### TEST CASES
-<div style="width:800px"><p>test</p></div>
-<div style="width:100%"><p>test</p></div>
-<table style="width:400px">
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+<table>
    <tr>
       <th colspan=2>Home Page
    <tr>
    <tr>
-      <td>Action</td>
-      <td>Expected Result</td>
+      <th>Action</td>
+      <th>Expected Result</td>
    <tr>
    <tr>
       <td>Click "Let's find a place to relax" button</td>

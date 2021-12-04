@@ -43,7 +43,8 @@ I believe this application will be a big help to those people who are stressed, 
    * They have cool fonts and icons
 
 ### TEST CASES
-
+<div style="width:800px"><p>test</p></div>
+<div style="width:100%"><p>test</p></div>
 <table style="width:400px">
    <tr>
       <th colspan=2>Home Page

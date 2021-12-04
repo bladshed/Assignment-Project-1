@@ -98,12 +98,111 @@ I believe this application will be a big help to those people who are stressed, 
       <td>Navigates to your current position</td>
    <tr>
    <tr>
+      <td>
+         <img src="images/overlays.png">
+         <p>Hover to this icon</p>
+      </td>
+      <td>Shows taxi and weather checkboxes</td>
+   <tr>
+   <tr>
+      <td>Click "Taxi Available" checkbox</td>
+      <td>Shows all taxis available in Singapore</td>
+   <tr>
+   <tr>
+      <td>Click "Check Weather" checkbox</td>
+      <td>Shows all weather condition icons in Singapore</td>
+   <tr>
+   <tr>
       <td>Click a place under "Suggested Places"</td>
       <td>
          <ul>
-            <li>Description modal will pop up</li>
+            <li>Description modal pops up</li>
             <li>Navigates to the selected place</li>
          </ul>
       </td>
+   <tr>
+   <tr>
+      <td>Click "MALLS" button</td>
+      <td>Shows all malls in Singapore</td>
+   <tr>
+   <tr>
+      <td>Search mall (after "MALLS" button is clicked)</td>
+      <td>Shows all malls via search input</td>
+   <tr>
+   <tr>
+      <td>Click "PARKS" button</td>
+      <td>Shows all parks in Singapore</td>
+   <tr>
+   <tr>
+      <td>Search park (after "PARKS" button is clicked)</td>
+      <td>Shows all malls via search input</td>
+   <tr>
+   <tr>
+      <th colspan=2>About Me Page
+   <tr>
+   <tr>
+      <th>
+         <img width="441" height="1">
+         <small>Action</small>
+      </td>
+      <th>
+         <img width="441" height="1">
+         <small>Expected Result</small>
+      </td>
+   <tr>
+   <tr>
+      <td>Go to "About Me" page</td>
+      <td>
+         <ul>
+            <li>Should see MY STORY content</li>
+            <li>Should see Stress statistics chart with content</li>
+            <li>Should see Journet to relaxation content</li>
+            <li>Should see Quick guide content with image</li>
+            <li>Should see footer quote</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <th colspan=2>Mobile size page
+   <tr>
+   <tr>
+      <th>
+         <img width="441" height="1">
+         <small>Action</small>
+      </td>
+      <th>
+         <img width="441" height="1">
+         <small>Expected Result</small>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/home-page-mbl.png">
+         <ol>
+            <li>Adjust your screen to mobile size</li>
+            <li>Go to home page</li>
+         </ol>
+      </td>
+      <td>Should be able to adjust to mobile screen size</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/maps-page-mbl.png">
+         <ol>
+            <li>Adjust your screen to mobile size</li>
+            <li>Go to maps page</li>
+         </ol>
+      </td>
+      <td>Should be able to adjust to mobile screen size</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/about-me-page-mbl.png">
+         <ol>
+            <li>Adjust your screen to mobile size</li>
+            <li>Go to about me page</li>
+         </ol>
+      </td>
+      <td>Should be able to adjust to mobile screen size</td>
    <tr>
 </table>

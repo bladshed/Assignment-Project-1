@@ -121,6 +121,9 @@ section>div p{
     background-image: none;
     padding: 5px;
 }
+.leaflet-control-layers-overlays{
+    color: white;
+}
 
 #map-container {
     position: relative;

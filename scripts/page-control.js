@@ -57,7 +57,7 @@ function loadMapPageHTML(){
         <button class="btn-sm btn-success mb-3 me-2 col-4" id="malls-btn">MALLS</button>
         <button class="btn-sm btn-success mb-3 me-2 col-4" id="parks-btn">PARKS</button>
         <input id="search-input" class="col-10 mb-2" type="text"/>
-        <button class="btn-sm btn-primary mb-3 me-2 col-10" id="search-btn">SEARCH</button>
+        <button class="btn-sm btn-primary mb-3 col-10" id="search-btn">SEARCH</button>
         <div id="search-results"></div>
         </div>
         <!-- search map end -->
@@ -114,11 +114,11 @@ function loadAboutmePageHTML(){
         <!-- row 5 -->
         <div class="page-row-5-a align-items-start col-12 col-lg-5 mx-2 my-5">
             <h1>Quick guide</h1>
-            <ul>
+            <ol>
             <li>Go to your current location</li>
             <li>Map will go to our suggested places</li>
             <li>Search your favorite malls or parks</li>
-            </ul>
+            </ol>
         </div>
         <div class="page-row-5-b d-flex flex-column col-12 col-lg-5 align-items-center mx-2 my-5">
             <img class="img-about-me" src="images/map-guide.png" alt="Time to relax">
@@ -126,7 +126,7 @@ function loadAboutmePageHTML(){
 
         <!-- row 2 -->
         <div class="text-center col-12">
-            <p>"Sometimes all you need is a little fresh air" -anonymous</p>
+            <h1>"Sometimes all you need is a little fresh air" -anonymous</h1>
         </div>
     </div>
     `;

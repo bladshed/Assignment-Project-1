@@ -93,7 +93,7 @@ I believe this application will be a big help to those people who are stressed, 
    <tr>
       <td>
          <img src="images/your-position.png">
-         <small>Click this icon</small>
+         <p>Click this icon</p>
       </td>
       <td>Navigates to your current position</td>
    <tr>

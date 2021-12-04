@@ -207,6 +207,7 @@ Click this link to access my --> [Web Application](https://bladshed.github.io/As
 ### PLATFORM USED
 
 * Github for CI/CD
+* Access live [Web Application](https://bladshed.github.io/Assignment-Project-1/) via Github
 * To deploy my project to your local machine
    1. Go to [Assignment-Project-1](https://github.com/bladshed/Assignment-Project-1)
    2. Download my project repository

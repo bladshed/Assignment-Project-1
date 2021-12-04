@@ -205,6 +205,8 @@ section>div p{
     width: 200px;
 }
 /* about me section end */
+
+/* responsive screens start */
 @media screen and (min-width:414px) {
     .img-about-me{
         height: 300px;
@@ -297,3 +299,4 @@ section>div p{
         width: 400px;
     }
 }
+/* responsive screens end */

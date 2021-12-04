@@ -1,8 +1,11 @@
+// empty all pages
 function emptyAllPages(){
     document.querySelector("#main-section").innerHTML = "";
     document.querySelector("#map-main").innerHTML = "";
     document.querySelector("#about-me-section").innerHTML = "";
 }
+
+// load home page
 function loadHomepageHTML(){
     emptyAllPages();
     document.querySelector("#main-section").innerHTML = `
@@ -16,6 +19,7 @@ function loadHomepageHTML(){
     `;
 }
 
+// load map page
 function loadMapPageHTML(){
     emptyAllPages();
     document.querySelector("#map-main").innerHTML = `
@@ -65,6 +69,7 @@ function loadMapPageHTML(){
     `;
 }
 
+// load about me page
 function loadAboutmePageHTML(){
     emptyAllPages();
     document.querySelector("#about-me-section").innerHTML = `
@@ -132,7 +137,7 @@ function loadAboutmePageHTML(){
     `;
 }
 
-// home page
+// home page listener
 document.querySelector("#home-page").addEventListener('click', async (event)=>{
     event.preventDefault();
     event.stopPropagation();
@@ -145,11 +150,11 @@ document.querySelector("#home-page").addEventListener('click', async (event)=>{
     document.querySelector("#about-me-page").classList.remove("active");
     loadHomepageHTML();
 
-    // map page
+    // call find button listener
     findBtnListener();
 });
 
-// map page
+// map page listener
 document.querySelector("#map-page").addEventListener('click', async (event)=>{
     event.preventDefault();
     event.stopPropagation();
@@ -164,6 +169,7 @@ document.querySelector("#map-page").addEventListener('click', async (event)=>{
     await main();
 });
 
+// find button listener
 function findBtnListener(){
     // map page
     document.querySelector("#find-btn").addEventListener('click', async (event)=>{
@@ -180,6 +186,7 @@ function findBtnListener(){
         await main();
     });
 }
+// call find button listener
 findBtnListener();
 
 // about me page

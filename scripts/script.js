@@ -1,6 +1,7 @@
 let map = null;
-async function main() {
+function main() {
  
+    // initialize function
     function init() {
         // initialize variables
         let map = initMap();
@@ -86,7 +87,7 @@ async function main() {
         // event listeners end
         //--------------------------------------------------------------------------
 
-        // loadGroup
+        // load taxi and weather map data
         async function loadGroup(){
             // taxi
             const taxiResponse = await axios.get("https://api.data.gov.sg/v1/transport/taxi-availability");
@@ -171,11 +172,13 @@ async function main() {
                 }
             }
 
+            // add overlays
             let overlays ={
                 'Taxi Available': taxiGroup,
                 'Check Weather': weatherGroup
             }
 
+            // set overlays
             L.control.layers({}, overlays).addTo(map);
         }
 
@@ -251,6 +254,7 @@ async function main() {
         }
     }
 
+    // call init function
     init();
 
     // initialize map
@@ -261,6 +265,7 @@ async function main() {
             map.remove();
         }
 
+        // set map lat long
         let singapore = [1.35, 103.83];
         map = L.map('map-container').setView(singapore, 13);
         
@@ -282,14 +287,14 @@ async function main() {
         return map;
     }
     
-    // main();
-    
+    // display result layer function
     function displayResultLayer(map, searchResultLayer){
         if (!map.hasLayer(searchResultLayer)) {
             map.addLayer(searchResultLayer);
         }
     }
     
+    // display search result function
     function displaySearchResult(searchResults, map, marker, name, lat, lng){
         // display search results
         let resultElement = document.createElement('div');
@@ -304,6 +309,7 @@ async function main() {
         searchResults.appendChild(resultElement);
     }
     
+    // display other places function
     function displayOtherPlaces(map, searchResultLayer, lat, lng){
         let searchResults = document.querySelector('#search-results');
             searchResults.innerHTML = "";
@@ -320,7 +326,10 @@ async function main() {
             displayResultLayer(map, searchResultLayer);
             map.flyTo([lat, lng], 16);
     }
-    
+
+    //--------------------------------------------------------------------------
+    // other places listeners - start
+    //--------------------------------------------------------------------------
     function otherPlacesListeners(map, searchResultLayer){
         // tanjong beach
         document.querySelector('#tanjong-beach-mbl').addEventListener('click', ()=>{
@@ -406,6 +415,7 @@ async function main() {
             displayOtherPlaces(map, searchResultLayer, 1.3035, 103.8590);
         });
     
+        // small icon class listener
         document.querySelectorAll(".small-icon").forEach(icon => {
             icon.addEventListener('click', ()=>{
                 document.querySelectorAll(".small-icon").forEach(smallIcon => {
@@ -414,6 +424,7 @@ async function main() {
             })
         });
     
+        // exit modal button listener
         document.querySelectorAll(".exit-modal").forEach(btn => {
             btn.addEventListener('click', ()=>{
                 document.querySelectorAll(".small-icon").forEach(exitBtn => {
@@ -423,6 +434,7 @@ async function main() {
             })
         });
     }
+    //--------------------------------------------------------------------------
+    // other places listeners - end
+    //--------------------------------------------------------------------------
 }
-
-// main();

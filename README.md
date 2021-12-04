@@ -97,4 +97,13 @@ I believe this application will be a big help to those people who are stressed, 
       </td>
       <td>Navigates to your current position</td>
    <tr>
+   <tr>
+      <td>Click a place under "Suggested Places"</td>
+      <td>
+         <ul>
+            <li>Description modal will pop up</li>
+            <li>Navigates to the selected place</li>
+         </ul>
+      </td>
+   <tr>
 </table>

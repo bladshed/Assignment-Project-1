@@ -6,13 +6,13 @@ The main goal of this project is about help people to de-stress themselves and h
 
 I believe this application will be a big help to those people who are stressed, depressed, not in a good mood or those who are in any negative energy.
 
+[Web Application link](https://bladshed.github.io/Assignment-Project-1/)
+
 ### UI/UX
 
 * [Wireframes link](files)
 
 * The design main colors revolves in blue, green, red and black. I chose these colors because it represent the nature's colors, blue and green are very pleasing to the eyes, red to catch the attention, black to neutralize the colors and to make it dark so it won't stressed your eyes.
-
-* [Project link](https://bladshed.github.io/Assignment-Project-1/)
 
 ### FEATURES
 
@@ -41,3 +41,24 @@ I believe this application will be a big help to those people who are stressed, 
 
 * Google fonts and font awesome were used for fonts and icons.
    * They have cool fonts and icons
+
+### TEST CASES
+
+<table>
+   <tr>
+      <th colspan=2>Home Page
+   <tr>
+   <tr>
+      <td>Action</td>
+      <td>Expected Result</td>
+   <tr>
+   <tr>
+      <td>Click "Let's find a place to relax" button</td>
+      <td>Redirects to "Maps" tab</td>
+   <tr>
+   <tr>
+      <td>Click "Maps" tab</td>
+      <td>Redirects to "Maps" tab</td>
+   <tr>
+
+</table>

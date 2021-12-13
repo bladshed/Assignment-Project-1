@@ -204,6 +204,82 @@ Click this link to access my --> [Web Application](https://bladshed.github.io/As
    <tr>
 </table>
 
+### MAP ICONS GUIDE
+<table>
+   <tr>
+      <th colspan=2>Maps Page
+   <tr>
+   <tr>
+      <th>
+         <img width="441" height="1">
+         <small>Icon</small>
+      </td>
+      <th>
+         <img width="441" height="1">
+         <small>Description</small>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/your-position.png">
+      </td>
+      <td>
+         <ul>
+            <li>Zoom in/out</li>
+            <li>Navigate to you current location</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/mall.png">
+      </td>
+      <td>Mall location</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/leaf-red.png">
+      </td>
+      <td>Park location</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/taxi.png">
+      </td>
+      <td>Taxi location</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/sunny.png">
+      </td>
+      <td>Sunny Weather</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/cloudy.png">
+      </td>
+      <td>Cloudy Weather</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/rainy.png">
+      </td>
+      <td>Rainy Weather</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/windy.png">
+      </td>
+      <td>Windy Weather</td>
+   <tr>
+   <tr>
+      <td>
+         <img src="images/night.png">
+      </td>
+      <td>Night Time Weather</td>
+   <tr>
+</table>
+
 ### PLATFORM USED
 
 * Github for CI/CD

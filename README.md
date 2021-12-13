@@ -232,6 +232,12 @@ Click this link to access my --> [Web Application](https://bladshed.github.io/As
    <tr>
    <tr>
       <td>
+         <img src="images/overlays.png">
+      </td>
+      <td>Shows taxi availability and weather condition</td>
+   <tr>
+   <tr>
+      <td>
          <img src="images/mall.png">
       </td>
       <td>Mall location</td>

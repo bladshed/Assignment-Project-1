@@ -1,5 +1,4 @@
 ### PROJECT OVERVIEW
-
 This project is mainly used to find good places in the area like malls and parks. It also helps the users to check the taxi availability and the weather condition. The web application can fit multiple screen, from mobile to desktop screen. 
 
 The main goal of this project is about help people to de-stress themselves and have a quick break in their lives to go out and find some good places in the area. Most people nowadays are stressed and one of the main reasons is the pandemic.
@@ -8,8 +7,8 @@ I believe this application will be a big help to those people who are stressed, 
 
 Live link to my Web Application --> [Web Application](https://bladshed.github.io/Assignment-Project-1/)
 
-### UI/UX
 
+### UI/UX
 * [Wireframes link](files)
 
 * The design main colors revolves in blue, green, red and black. I chose these colors because it represent the nature's colors, blue and green are very pleasing to the eyes, red to catch the attention, black to neutralize the colors and to make it dark so it won't stressed your eyes.
@@ -21,13 +20,14 @@ Live link to my Web Application --> [Web Application](https://bladshed.github.io
 * US04. As a user, I want to know the taxi availability, so that I know if I there one near to me.
 * US05. As a user, I want to know the weather condition, so that I can plan my trips. 
 
-### FEATURES
 
+### FEATURES
 * The main feature of this web application is the map navigation where when you choose your location from search or from the suggested places, it will fly you to that place so you will be able to see the exact location on the map.
 
 * I also used chart to show the statictics of stressed people, I used chart because it's easier to show informations via chart rather than using a table and the third party chart library that I used has very good UIs.
 
 * There is one bug from leaflet plugin (I think) where when you go to other page and go back to Maps tab, it won't be able to automatically show your location.
+
 
 ### TECHNOLOGIES USED
 
@@ -45,6 +45,7 @@ Live link to my Web Application --> [Web Application](https://bladshed.github.io
 
 * Visual Studio Code
    * IDE that I used for this project because it's easy to code here and easy to manage your files and data
+
 
 ### TEST CASES
 <table>
@@ -211,6 +212,7 @@ Live link to my Web Application --> [Web Application](https://bladshed.github.io
    <tr>
 </table>
 
+
 ### MAP ICONS GUIDE
 <table>
    <tr>
@@ -293,8 +295,8 @@ Live link to my Web Application --> [Web Application](https://bladshed.github.io
    <tr>
 </table>
 
-### PLATFORM USED
 
+### PLATFORM USED
 * Github for CI/CD
 * Access live [Web Application](https://bladshed.github.io/Assignment-Project-1/) via Github
 * To deploy my project to your local machine
@@ -313,6 +315,7 @@ Live link to my Web Application --> [Web Application](https://bladshed.github.io
 
    * Google fonts and Font awesome
       * These two libraries were used for my fonts and icons. They have cool fonts and icons.
+
 
 ### PROJECT COMPLEXITY
 <table>
@@ -432,6 +435,7 @@ Live link to my Web Application --> [Web Application](https://bladshed.github.io
       </td>
    <tr>
 </table>
+
 
 ### CREDITS
 * For my mall images 

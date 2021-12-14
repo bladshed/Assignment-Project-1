@@ -6,13 +6,20 @@ The main goal of this project is about help people to de-stress themselves and h
 
 I believe this application will be a big help to those people who are stressed, depressed, not in a good mood or those who are in any negative energy.
 
-Click this link to access my --> [Web Application](https://bladshed.github.io/Assignment-Project-1/)
+Live link to my Web Application --> [Web Application](https://bladshed.github.io/Assignment-Project-1/)
 
 ### UI/UX
 
 * [Wireframes link](files)
 
 * The design main colors revolves in blue, green, red and black. I chose these colors because it represent the nature's colors, blue and green are very pleasing to the eyes, red to catch the attention, black to neutralize the colors and to make it dark so it won't stressed your eyes.
+
+### USER STORIES
+* US01. As a user, I want to look at all the malls and parks, so that I know where to go.
+* US02. As a user, I want to know the places near to me, so I won't travel too far. 
+* US03. As a user, I want to see the details of the suggested places, so that I would know what to expect to see at that place.
+* US04. As a user, I want to know the taxi availability, so that I know if I there one near to me.
+* US05. As a user, I want to know the weather condition, so that I can plan my trips. 
 
 ### FEATURES
 
@@ -306,6 +313,125 @@ Click this link to access my --> [Web Application](https://bladshed.github.io/As
 
    * Google fonts and Font awesome
       * These two libraries were used for my fonts and icons. They have cool fonts and icons.
+
+### PROJECT COMPLEXITY
+<table>
+   <tr>
+      <th colspan=2>Dynamic Map Application
+   <tr>
+   <tr>
+      <th>
+         <img width="441" height="1">
+         <small>Items</small>
+      </td>
+      <th>
+         <img width="441" height="1">
+         <small>File path</small>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Consume the GET endpoint of an API, or consume a CSV/JSON file
+      </td>
+      <td>
+         scripts/data.js
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Adding or removing DOM elements to the display (map, DOM tree, game screen) base on user's actions
+      </td>
+      <td>
+         <ul>
+            <li>scripts/data.js</li>
+            <li>scripts/page-control.js</li>
+            <li>scripts/script.js</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Modifying the CSS of DOM elements based on the user's actions 
+      </td>
+      <td>
+         <ul>
+            <li>index.html</li>
+            <li>css/custom.css</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Use of 1D traversal of array
+      </td>
+      <td>
+         scripts/data.js
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Each use of a unique functional mapping method (map, reduce, filter)
+      </td>
+      <td>
+         <ul>
+            <li>scripts/data.js</li>
+            <li>scripts/script.js</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Each use of CSS layout technique (Bootstrap columns, flex box, grid)
+      </td>
+      <td>
+         index.html
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Each possible search or filtering criteria in the user interface
+      </td>
+      <td>
+         <ul>
+            <li>Navigate to Maps page</li>
+            <li>scripts/script.js</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Each case of the map updating base on the user's actions
+      </td>
+      <td>
+         <ul>
+            <li>Navigate to Maps page</li>
+            <li>scripts/script.js</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Each group of layers in the Leaflet map
+      </td>
+      <td>
+         <ul>
+            <li>Navigate to Maps page</li>
+            <li>scripts/script.js</li>
+         </ul>
+      </td>
+   <tr>
+   <tr>
+      <td>
+         Each group of marker clustering
+      </td>
+      <td>
+         <ul>
+            <li>Navigate to Maps page</li>
+            <li>scripts/script.js</li>
+         </ul>
+      </td>
+   <tr>
+</table>
 
 ### CREDITS
 * For my mall images 
